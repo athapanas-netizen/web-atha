@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <title>Wisata Alam Bengkulu</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="wisata alam, Bengkulu, Pulau Tikus, Pantai Panjang, Bukit Kaba, Enggano" name="keywords">
+    <meta content="Panduan lima wisata alam pilihan di Bengkulu." name="description">
+    <link rel="icon" href="img/bkl.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .navbar-brand img{height:42px;width:auto} 
+        .dest-card img{height:220px;object-fit:cover;width:100%} 
+        .carousel-item img, .carousel-item video{object-fit:cover;min-height:500px;max-height:80vh;width:100%} 
+        .side-link{display:flex;align-items:center} 
+        .side-link.active{color:var(--primary);font-weight:700}
+    </style>
+</head>
+<body>
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/bkl.webp" alt="Logo Bengkulu" class="me-2"><h1 class="m-0 fs-4">Wisata Alam Bengkulu</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Beranda</a>
+                <a href="pulautikus.html" class="nav-item nav-link">Pulau Tikus</a><a href="pantaipanjang.html" class="nav-item nav-link">Pantai Panjang</a><a href="danaudendam.html" class="nav-item nav-link">Danau Dendam Tak Sudah</a><a href="bukitkaba.html" class="nav-item nav-link">Bukit Kaba</a><a href="enggano.html" class="nav-item nav-link">Pulau Enggano</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- Video Autoplay Latar Belakang -->
+                    <video autoplay loop muted playsinline class="w-100">
+                        <source src="video/index.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h3 class="display-1 text-white mb-5 animated slideInDown">Selamat Datang di Wisata Alam Bengkulu</h3>
+                                    <a href="#destinasi" class="btn btn-primary py-sm-3 px-sm-4">Jelajahi Destinasi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl py-5"><div class="container"><div class="row g-5 align-items-center">
+        <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s"><img class="img-fluid rounded" src="img/pantaipanjang1.webp" alt="Pantai Panjang"></div>
+        <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.3s">
+            <p class="fs-5 fw-bold text-primary">Tentang Bengkulu</p>
+            <h1 class="display-5 mb-4">Selamat Datang di Wisata Alam Bengkulu</h1>
+            <p class="mb-4">Bengkulu terletak di pesisir barat Pulau Sumatra dan menyimpan beragam keindahan alam: pantai yang panjang, pulau berpasir putih, danau yang tenang, hingga gunung berapi dengan kawah yang memukau. Website ini memperkenalkan lima wisata alam pilihan di Bengkulu.</p>
+            <a class="btn btn-primary py-3 px-4" href="#destinasi">Lihat Lima Destinasi</a>
+        </div>
+    </div></div></div>
+    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="img/bukitkaba.webp">
+        <div class="container py-5"><div class="row g-5">
+            <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s"><h1 class="display-4 text-white">5</h1><span class="fs-5 fw-semi-bold text-light">Wisata Alam Pilihan</span></div>
+            <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s"><h1 class="display-4 text-white">7 km</h1><span class="fs-5 fw-semi-bold text-light">Panjang Pantai Panjang</span></div>
+            <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s"><h1 class="display-4 text-white">1.900 m</h1><span class="fs-5 fw-semi-bold text-light">Ketinggian Bukit Kaba (mdpl)</span></div>
+            <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s"><h1 class="display-4 text-white">10 km</h1><span class="fs-5 fw-semi-bold text-light">Pulau Tikus dari Kota Bengkulu</span></div>
+        </div></div>
+    </div>
+    <div class="container-xxl py-5" id="destinasi"><div class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width:500px">
+            <p class="fs-5 fw-bold text-primary">Destinasi</p>
+            <h1 class="display-5 mb-5">Lima Wisata Alam Pilihan</h1>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="dest-card rounded overflow-hidden shadow h-100 d-flex flex-column">
+                    <img src="img/pulautikus1.jpg" alt="Pulau Tikus">
+                    <div class="p-4 d-flex flex-column flex-grow-1">
+                        <h4 class="mb-3"><i class="fa fa-water text-primary me-2"></i>Pulau Tikus</h4>
+                        <p class="mb-4">Pulau berpasir putih dengan taman laut yang terjaga, cocok untuk snorkeling dan diving.</p>
+                        <a class="btn btn-sm mt-auto align-self-start" href="pulautikus.html"><i class="fa fa-plus text-primary me-2"></i>Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="dest-card rounded overflow-hidden shadow h-100 d-flex flex-column">
+                    <img src="img/pantaipanjang2.jpg" alt="Pantai Panjang">
+                    <div class="p-4 d-flex flex-column flex-grow-1">
+                        <h4 class="mb-3"><i class="fa fa-umbrella-beach text-primary me-2"></i>Pantai Panjang</h4>
+                        <p class="mb-4">Pantai sepanjang sekitar 7 km di tepi Kota Bengkulu dengan deretan cemara dan pinus.</p>
+                        <a class="btn btn-sm mt-auto align-self-start" href="pantaipanjang.html"><i class="fa fa-plus text-primary me-2"></i>Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="dest-card rounded overflow-hidden shadow h-100 d-flex flex-column">
+                    <img src="img/danaudendam1.jpg" alt="Danau Dendam Tak Sudah">
+                    <div class="p-4 d-flex flex-column flex-grow-1">
+                        <h4 class="mb-3"><i class="fa fa-tree text-primary me-2"></i>Danau Dendam Tak Sudah</h4>
+                        <p class="mb-4">Danau tenang dekat pusat kota, dikelilingi perbukitan hijau dan sarat legenda.</p>
+                        <a class="btn btn-sm mt-auto align-self-start" href="danaudendam.html"><i class="fa fa-plus text-primary me-2"></i>Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="dest-card rounded overflow-hidden shadow h-100 d-flex flex-column">
+                    <img src="img/bukitkaba1.jpg" alt="Bukit Kaba">
+                    <div class="p-4 d-flex flex-column flex-grow-1">
+                        <h4 class="mb-3"><i class="fa fa-mountain text-primary me-2"></i>Bukit Kaba</h4>
+                        <p class="mb-4">Gunung berapi di Rejang Lebong dengan kawah memukau dan panorama Bukit Barisan.</p>
+                        <a class="btn btn-sm mt-auto align-self-start" href="bukitkaba.html"><i class="fa fa-plus text-primary me-2"></i>Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="dest-card rounded overflow-hidden shadow h-100 d-flex flex-column">
+                    <img src="img/pulauenggano1.jpg" alt="Pulau Enggano">
+                    <div class="p-4 d-flex flex-column flex-grow-1">
+                        <h4 class="mb-3"><i class="fa fa-compass text-primary me-2"></i>Pulau Enggano</h4>
+                        <p class="mb-4">Pulau terluar Bengkulu dengan pantai alami, ombak menarik, dan budaya yang khas.</p>
+                        <a class="btn btn-sm mt-auto align-self-start" href="enggano.html"><i class="fa fa-plus text-primary me-2"></i>Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div></div>
+    <div class="container-xxl py-5"><div class="container"><div class="row g-5 align-items-center">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <p class="fs-5 fw-bold text-primary">Ajakan</p>
+            <h1 class="display-5 mb-4">Ajakan Berwisata Bijak</h1>
+            <p class="mb-4">Mari menikmati alam Bengkulu dengan bertanggung jawab: bawa pulang sampahmu, jangan merusak terumbu karang dan tumbuhan, serta hormati satwa dan masyarakat setempat.</p>
+        </div>
+        <div class="col-lg-6"><div class="row g-4">
+            <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s"><div class="text-center rounded py-5 px-4" style="box-shadow:0 0 45px rgba(0,0,0,.08)"><div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width:90px;height:90px"><i class="fa fa-trash-alt fa-3x text-primary"></i></div><h4 class="mb-0">Bawa pulang sampahmu</h4></div></div>
+            <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s"><div class="text-center rounded py-5 px-4" style="box-shadow:0 0 45px rgba(0,0,0,.08)"><div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width:90px;height:90px"><i class="fa fa-leaf fa-3x text-primary"></i></div><h4 class="mb-0">Jaga terumbu karang & tumbuhan</h4></div></div>
+            <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s"><div class="text-center rounded py-5 px-4" style="box-shadow:0 0 45px rgba(0,0,0,.08)"><div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width:90px;height:90px"><i class="fa fa-paw fa-3x text-primary"></i></div><h4 class="mb-0">Hormati satwa</h4></div></div>
+            <div class="col-md-6 wow fadeIn" data-wow-delay="0.7s"><div class="text-center rounded py-5 px-4" style="box-shadow:0 0 45px rgba(0,0,0,.08)"><div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width:90px;height:90px"><i class="fa fa-users fa-3x text-primary"></i></div><h4 class="mb-0">Hormati masyarakat setempat</h4></div></div>
+        </div></div>
+    </div></div></div>
+    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-4">Wisata Alam Bengkulu</h4>
+                    <p>Bengkulu terletak di pesisir barat Pulau Sumatra dan menyimpan beragam keindahan alam: pantai, pulau, danau, hingga gunung berapi.</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-4">Destinasi</h4>
+                    <a class="btn btn-link" href="pulautikus.html">Pulau Tikus</a><a class="btn btn-link" href="pantaipanjang.html">Pantai Panjang</a><a class="btn btn-link" href="danaudendam.html">Danau Dendam Tak Sudah</a><a class="btn btn-link" href="bukitkaba.html">Bukit Kaba</a><a class="btn btn-link" href="enggano.html">Pulau Enggano</a>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h4 class="text-white mb-4">Tentang Website</h4>
+                    <p class="mb-2"><i class="fa fa-user me-3"></i>Dibuat oleh Wildan Athallah Endriko</p>
+                    <p class="mb-2"><i class="fa fa-university me-3"></i>Universitas Muhammadiyah Bengkulu</p>
+                    <p class="mb-2"><i class="fa fa-info-circle me-3"></i>Sumber: indonesia.travel dan berbagai sumber wisata Bengkulu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">&copy; 2026 <a class="border-bottom" href="index.html">Wisata Alam Bengkulu</a>. Semua hak dilindungi.</div>
+                <div class="col-md-6 text-center text-md-end">
+                    Template oleh <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>, didistribusikan <a href="https://themewagon.com">ThemeWagon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
